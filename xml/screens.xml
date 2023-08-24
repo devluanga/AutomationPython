@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dashboards>
+    <dashboard name="F5 and nginx servers" url="https://krr89478.live.dynatrace.com/#dashboard;id=3794f2a1-fd5f-4411-b096-3e2ec38c8a17;gtf=-2h;gf=all">
+        <element  wait="20" name="f5box" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[10]/div[2]/div/div[1]">F5 Box</element>
+        <element  wait="20" name="ngix_box" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[11]/div[2]/div/div[1]">nginx</element>
+        <element  wait="20" name="cpu_utilization" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[20]">cpu_utilization</element>
+        <element  wait="20" name="disk_utilization" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[35]">cpu_utilization</element>
+    </dashboard>
+    <dashboard name="overview dashboard" url="https://krr89478.live.dynatrace.com/#dashboard;gtf=-2h;gf=all;id=6382f364-9f44-4b7d-8d3c-33584af52b2b">
+        <element  wait="20" name="dashboard_overview_1" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[11]/div[2]/div/div[1]">dashboard_overview_1</element>
+        <element  wait="20" name="dashboard_overview_2" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[21]/div[2]/div/div[1]">dashboard_overview_2</element>
+        <element  wait="20" name="dashboard_overview_3" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[15]/div[2]/div/div[1]">dashboard_overview_3</element>
+        <element  wait="20" name="dashboard_overview_4" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[22]/div[2]/div/div[1]">dashboard_overview_4</element>
+        <element  wait="20" name="dashboard_overview_5" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[17]/div[2]/div/div[1]">dashboard_overview_5</element>
+        <element  wait="20" name="eiom_databases"       tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[10]/div[2]/div/div[1]">eiom_databases</element>
+        <element  wait="20" name="thirdparty_databases" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[18]/div[2]/div/div[1]">thirdparty_databases</element>
+        <element  wait="20" name="thirdparty_databases" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[18]/div[2]/div/div[1]">thirdparty_databases</element>
+    </dashboard>
+    <dashboard name="EIOM infrastructure dashboard" url="https://krr89478.live.dynatrace.com/#dashboard;gtf=-2h;gf=all;id=658e18b3-0353-45d3-baee-3507f64674cc">
+        <element  wait="20" name="hq_hosts" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[10]/div[2]/div/div[1]">hq_hosts</element>
+        <element  wait="20" name="thika_hosts" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[15]/div[2]/div/div[1]">thika_hosts</element>
+        <element  wait="20" name="dmz_hosts" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[16]/div[2]/div/div[1]">dmz_hosts</element>
+        <element  wait="20" name="ngix_hosts" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[19]/div[2]/div/div[1]">ngix_hosts</element>
+        <element  wait="20" name="bpm_hosts" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[25]/div[2]/div/div[1]">bpm_hosts</element>
+        <element  wait="20" name="mem_utilization_prod" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[20]">mem_utilization_prod</element>
+        <element  wait="20" name="mem_utilization_dr" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[21]">mem_utilization_dr</element>
+        <element  wait="20" name="mem_utilization_dmz" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[27]">mem_utilization_dmz</element>
+        <element  wait="20" name="disk_utilization_prod" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[28]">disk_utilization_prod</element>
+        <element  wait="20" name="disk_utilization_dr" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[29]">disk_utilization_dr</element>
+        <element  wait="20" name="disk_utilization_dmz" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[30]">disk_utilization_dmz</element>
+        <element  wait="20" name="bmp_server_disk_utilization" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[31]">bmp_server_disk_utilization</element>
+    </dashboard>
+    <dashboard name="EIOM Services dashboard" url="https://krr89478.live.dynatrace.com/#dashboard;gtf=-2h;gf=all;id=aea4e2be-fad5-446b-a722-2788b0cb45a5">
+        <element  wait="20" name="subreg_db" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[11]/div[2]/div/div[1]">subreg_db</element>
+        <element  wait="20" name="ftth_db" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[30]/div[2]/div/div[1]">ftth_db</element>
+        <element  wait="20" name="simswap_db" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[35]/div[2]/div/div[1]">simswap_db</element>
+        <element  wait="20" name="pinless" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[34]/div[2]/div/div[1]">pinless</element>
+        <element  wait="20" name="uvc" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[47]/div[2]/div/div[1]">uvc</element>
+        <element  wait="20" name="fb_okoa" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[49]/div[2]/div/div[1]">fb_okoa</element>
+        <element  wait="20" name="bonga_everywhere" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[44]/div[2]/div/div[1]">bonga_everywhere</element>
+        <element  wait="20" name="ivr_services" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[36]/div[2]/div/div[1]">ivr_services</element>
+        <element  wait="20" name="send_sms" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[46]/div[2]/div/div[1]">send_sms</element>
+        <element  wait="20" name="neo_postpay_bundles" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[40]/div[2]/div/div[1]">neo_postpay_bundles</element>
+        <element  wait="20" name="neo_prepay_bundles" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[29]/div[2]/div/div[1]">neo_prepay_bundles</element>
+        <element  wait="20" name="old_prepay_bundles" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[42]/div[2]/div/div[1]">old_prepay_bundles</element>
+        <element  wait="20" name="old_postpay_bundles" tag ="xpath"  location = "/html/body/div[4]/div[6]/div/div[5]/div[1]/div[41]/div[2]/div/div[1]">old_postpay_bundles</element>
+    </dashboard>
+    <dashboard name="NT Manager Root" url="https://krr89478.live.dynatrace.com/#serviceOverview;id=SERVICE-B2BC1F2E04A7F41A;gtf=-2h;gf=all">
+        <element  wait="20" name="nt_manager_root" tag="tagname" location="body">nt_manager_root</element>
+    </dashboard>
+    <dashboard name="FTTH Services" url="https://krr89478.live.dynatrace.com/#dashboard;gtf=-2h;gf=all;id=19293009-b128-4f57-9a8a-cadf0ba4daf9">
+        <element  wait="30" name="ftth_service_overview" tag="tagname" location="body">ftth_service_overview</element>
+    </dashboard>
+    <dashboard name="Synthetic Monitor" url="https://krr89478.live.dynatrace.com/?state=_r8o5OsnSnKlQ3_h4Gf0cYQAzQfin5EydjtrPDk9Y6g&#38;code=b2e0e00b-6fb1-4533-bbb4-473c4c9e47fb#monitors;filtercfg=84917cac-7fd6-473c-934e-60b4ea195b9f;gtf=-2h;gf=all">
+        <element  wait="30" name="Synthetic_monitor" tag="tagname" location="body">Synthetic_monitor</element>
+    </dashboard>
+    <dashboard name="BPM (BPM ANALYSIS)" url="https://krr89478.live.dynatrace.com/?state=_r8o5OsnSnKlQ3_h4Gf0cYQAzQfin5EydjtrPDk9Y6g&#38;code=b2e0e00b-6fb1-4533-bbb4-473c4c9e47fb#uemapplications/uemappmetrics;uemapplicationId=APPLICATION-92BF116B9D379281;gtf=-2h;gf=all">
+        <element  wait="30" name="bpm_analysis" tag="tagname" location="body">bpm_analysis</element>
+    </dashboard>
+    <dashboard name="BPM (IMPACT OF USER ACTIONS)" url="https://krr89478.live.dynatrace.com/?state=_r8o5OsnSnKlQ3_h4Gf0cYQAzQfin5EydjtrPDk9Y6g&#38;code=b2e0e00b-6fb1-4533-bbb4-473c4c9e47fb#uemapplications/uemappmetrics;uemapplicationId=APPLICATION-92BF116B9D379281;gtf=-2h;gf=all">
+        <element  wait="30" name="Impactofuser_actions" tag="tagname" location="body">Impactofuser_actions</element>
+    </dashboard>
+    <dashboard name="BPM (COMPOSITE METRICS)" url="https://krr89478.live.dynatrace.com/?state=_r8o5OsnSnKlQ3_h4Gf0cYQAzQfin5EydjtrPDk9Y6g&#38;code=b2e0e00b-6fb1-4533-bbb4-473c4c9e47fb#uemapplications/uemappmetrics;uemapplicationId=APPLICATION-92BF116B9D379281;gtf=-2h;gf=all">
+        <element  wait="30" name="Composite_metrics" tag="tagname" location="body">Composite_metrics</element>
+    </dashboard>
+    <dashboard name="BPM (AVAILABILITY METRICS)" url="https://krr89478.live.dynatrace.com/?state=_r8o5OsnSnKlQ3_h4Gf0cYQAzQfin5EydjtrPDk9Y6g&#38;code=b2e0e00b-6fb1-4533-bbb4-473c4c9e47fb#uemapplications/uemappmetrics;uemapplicationId=APPLICATION-92BF116B9D379281;gtf=-2h;gf=all">
+        <element  wait="30" name="Availability_metrics" tag="tagname" location="body">Availability_metrics</element>
+    </dashboard>
+    <dashboard name="BPM (TOP USERS)" url="https://krr89478.live.dynatrace.com/?state=_r8o5OsnSnKlQ3_h4Gf0cYQAzQfin5EydjtrPDk9Y6g&#38;code=b2e0e00b-6fb1-4533-bbb4-473c4c9e47fb#uemapplications/uemappmetrics;uemapplicationId=APPLICATION-92BF116B9D379281;gtf=-2h;gf=all">
+        <element  wait="30" name="Topuseractions" tag="tagname" location="body">Topuseractions</element>
+    </dashboard>
+    <dashboard name="BPM (TOP ERRORS)" url="https://krr89478.live.dynatrace.com/?state=_r8o5OsnSnKlQ3_h4Gf0cYQAzQfin5EydjtrPDk9Y6g&#38;code=b2e0e00b-6fb1-4533-bbb4-473c4c9e47fb#uemapplications/uemappmetrics;uemapplicationId=APPLICATION-92BF116B9D379281;gtf=-2h;gf=all">
+        <element  wait="30" name="Toperrors_metrics" tag="tagname" location="body">Toperrors_metrics</element>
+    </dashboard>
+</dashboards>
+
+

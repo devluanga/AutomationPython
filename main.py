@@ -163,11 +163,11 @@ logging.debug('BPM AND LB URLS')
 doc.add_heading('BPM AND LB URLS STATUS', level=2)
 
 Urls ={
-    1: "https://172.29.127.180:8080/openspace/?locale=en_US#",
-    2: "https://172.29.127.181:8080/openspace/?locale=en_US#",
-    3: "https://10.184.7.232:8080/openspace/?locale=en_US#",
-    4: "https://172.29.120.85:8080/openspace/?locale=en_US#",
-    4: "https://bpm.safaricom.co.ke:8080/openspace/?locale=en_US#",
+    1: "https://host:port/openspace/?locale=en_US#",
+    2: "https://host:port/openspace/?locale=en_US#",
+    3: "https://host:port/openspace/?locale=en_US#",
+    4: "https://host:port/openspace/?locale=en_US#",
+    4: "https://host:port/openspace/?locale=en_US#",
 }
 for url in Urls.values():
     dbh.checkurlstatus(doc, url)

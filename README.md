@@ -39,4 +39,6 @@ The project has been designed by Francis Chege Kamau fckamau@safaricom.co.ke
 The project is designed as a template that can easily be scaled to be used 
 for other healthchecks outside EIOM. Apart from taking screenshots for 
 dynatrace, monitoring database queries and testing api calls more monitoring processes can be added
-by adding more classes."# AutomationPython" 
+by adding more classes.
+
+"# AutomationPython" 

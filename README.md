@@ -7,7 +7,6 @@ report without making adjustments to the code.
 ## Installation
 ```
 cd /your/folder/
-git clone http://10.197.4.118/eiom/healthcheck.git
 ```
 check if config.ini exists in configs directory, if the file exists
 with the correct credentials just leave it. If the file is missing or the
@@ -33,7 +32,7 @@ The project is structured as shown below
 ```
 
 ## Authors and acknowledgment
-The project has been designed by Francis Chege Kamau fckamau@safaricom.co.ke
+The project has been designed and implemented by Francis Chege Kamau with cluanga
 
 ## Project status
 The project is designed as a template that can easily be scaled to be used 
